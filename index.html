@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Научиться учиться</title>
-    <link rel="stylesheet" href="./normalize.css">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./vendor/normalize.css">
+    <link rel="stylesheet" href="./vendor/fonts.css">
+    <link rel="stylesheet" href="./pages/index.css">
   </head>
 
   <body class="page">
     <header class="header">
-      <img class="logo header__logo" alt="logo" src="./images/logo_place_header.svg">
+      <img class="logo logo_place_header" alt="logo" src="./images/logo/logo_place_header.svg">
       <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">Какие современные и эффективные подходы к 
       обучению вы можете использовать в своей жизни? <a class="header__link" href="#">Узнать →</a></p>
     <!--Контейнеры для фоновых изображений, оформлены через CSS-->
       <div class="header__main-ilustration"></div>
-      <div class="header__square-pic"></div>  
+      <div class="header__square-pic rotation"></div>  
     </header>
 <!--конец блока header-->
 
@@ -39,6 +40,44 @@
         </div>
       </section>
     <!--конец блока description-->
+      <section class="techniques">
+        <h2 class="section-title">Техники обучения</h2>
+        <h3 class="section-subtitle">Пять практик от Барбары Оакли</h3>
+        <div class="cards">
+          <div class="cards__item">
+            <img class="cards__image" src="./images/cards-attention.png" alt="Книга "101 essage change you think"">
+            <p class="cards__title">Два вида внимания</p>
+            <p class="cards__description">Глубокие знания возникают, 
+              если чередовать сфокусированное и рассеяное мышление.</p>
+          </div>
+          <div class="cards__item">
+            <img class="cards__image" src="./images/cards-recall.png" alt="Статуя">
+            <p class="cards__title">Recall</p>
+            <p class="cards__description">Вспоминайте изученное — это 
+              позволит соединить разнозерные порции памяти.</p>
+          </div>
+          <div class="cards__item">
+            <img class="cards__image" src="./images/cards-interliving.png" alt="Интерливинг">
+            <p class="cards__title">Интерливинг</p>
+            <p class="cards__description">Изучайте несколько навыков 
+              одновременно, они обогащают друг друга.</p>
+          </div>
+          <div class="cards__item">
+            <img class="cards__image" src="./images/cards-question.png" alt="Вопросы">
+            <p class="cards__title">Вопросы</p>
+            <p class="cards__description">Слушая преподавателя, придумайте 
+              хороший вопрос, который вас действительно волнует.</p>
+          </div>
+          <div class="cards__item">
+            <img class="cards__image" src="./images/cards-competence.png" alt="Стопка книг в руке">
+            <p class="cards__title">Иллюзия компетентности</p>
+            <p class="cards__description">Повторите про себя, запишите, 
+              расскажите другу: вам только кажется, что вы владеете новой темой.</p>
+          </div>
+          <div class="cards__item"></div>
+        </div>
+      </section>
+<!--конец блока techniques-->
 
       <section class="digits">
         <h2 class="section-title">Цифры и факты</h2>
@@ -148,7 +187,7 @@
           </li>
         </ol>
         <!--контейнер для фонового изображения-->
-        <div class="kaufman__triangle"></div>
+        <div class="kaufman__triangle rotation"></div>
       </section>
     </main>
 <!--конец блока main-->
@@ -156,7 +195,7 @@
     <footer class="footer">
       <div class="footer__columns">
         <div class="footer__column footer__column_content_copyright">
-          <img class="logo" src="./images/logo_place_footer.svg" alt="logo">
+          <img class="logo logo_place_footer" src="./images/logo/logo_place_footer.svg" alt="logo">
           <p class="footer__author">© Виктор Абанькин</p>
         </div>
         <nav class="footer__column footer__column_content_info">
@@ -171,11 +210,11 @@
           <h3 class="footer__column-heading">Соцсети</h3>
           <ul class="footer__column-links">
             <li><a class="footer__social-link" href="#"><img class="footer__social-icon" 
-              src="./images/facebook_color_white.svg" alt="facebook-logo">Facebook</a></li>
+              src="./images/logo/facebook_color_white.svg" alt="facebook-logo">Facebook</a></li>
             <li><a class="footer__social-link" href="#"><img class="footer__social-icon" 
-              src="./images/vk_color_white.svg" alt="vk-logo">ВКонтакте</a></li>
+              src="./images/logo/vk_color_white.svg" alt="vk-logo">ВКонтакте</a></li>
             <li><a class="footer__social-link" href="#"><img class="footer__social-icon" 
-              src="./images/instagram_color_white.svg" alt="instagram-logo">Instagram</a></li>
+              src="./images/logo/instagram_color_white.svg" alt="instagram-logo">Instagram</a></li>
           </ul>
         </nav>
       </div>
