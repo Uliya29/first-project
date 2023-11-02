@@ -7,4 +7,5 @@
 
 .cards__image:hover {
   filter: drop-shadow(4px 4px 10px rgb(59, 58, 58));
+  scale: 1.2;
 }

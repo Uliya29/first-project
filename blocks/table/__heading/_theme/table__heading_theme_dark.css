@@ -1,3 +1,4 @@
 .table__heading_theme_dark {
   color: var(--text-dark-theme);
+  font-weight: 600;
 }

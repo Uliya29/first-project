@@ -2,4 +2,11 @@
   position: absolute;
   top: 30px;
   left: 64px;
+  font-family: "Arial Narrow", sans-serif;
+  font-size: 30px;
+}
+
+.logo_place_header:hover:first-letter {
+  color: red;
+  font-weight: 600;
 }
